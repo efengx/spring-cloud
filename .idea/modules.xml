@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../../ideaworkspace/springclouddemo/cloud-server-config/cloud-server-config.iml" filepath="$PROJECT_DIR$/../../../ideaworkspace/springclouddemo/cloud-server-config/cloud-server-config.iml" />
       <module fileurl="file://D:\..\ideaworkspace\springclouddemo\cloud-server-config\cloud-server-config.iml" filepath="D:\..\ideaworkspace\springclouddemo\cloud-server-config\cloud-server-config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../ideaworkspace/springclouddemo/cloud-server-eureka/cloud-server-eureka.iml" filepath="$PROJECT_DIR$/../../../ideaworkspace/springclouddemo/cloud-server-eureka/cloud-server-eureka.iml" />
       <module fileurl="file://D:\..\ideaworkspace\springclouddemo\cloud-server-eureka\cloud-server-eureka.iml" filepath="D:\..\ideaworkspace\springclouddemo\cloud-server-eureka\cloud-server-eureka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../../ideaworkspace/springclouddemo/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/../../../ideaworkspace/springclouddemo/spring-cloud-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-demo.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-demo.iml" />
+      <module fileurl="file://D:\..\ideaworkspace\springclouddemo\spring-cloud-demo.iml" filepath="D:\..\ideaworkspace\springclouddemo\spring-cloud-demo.iml" />
     </modules>
   </component>
 </project>
