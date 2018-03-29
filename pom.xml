@@ -12,7 +12,7 @@
 
   <modules>
     <module>cloud-server-eureka</module>
-
+    <module>cloud-server-config</module>
   </modules>
 
   <properties>
