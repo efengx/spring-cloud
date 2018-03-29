@@ -30,5 +30,6 @@ server:
 #eureka.client.serviceUrl.defaultZone=http://localhost:1111/eureka/
 eureka:
   client:
-    service-url: http://localhost:8080/eureka/
+    serviceUrl:
+       defaultZone: http://localhost:8080/eureka/
 #,http://localhost:1112/eureka/
