@@ -26,6 +26,8 @@
 	</properties>
 
 	<dependencies>
+
+		<!-- 		配置中心存储数据比较敏感，结合security使用更加方便 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
