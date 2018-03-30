@@ -3,14 +3,16 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/../../../../ideaworkspace/springclouddemo/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../ideaworkspace/springclouddemo/cloud-server-eureka/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../../ideaworkspace/springclouddemo/cloud-server-config/pom.xml" />
-        <option value="$PROJECT_DIR$/../../../ideaworkspace/springclouddemo/pom.xml" />
+        <option value="D:/../../ideaworkspace/springclouddemo/pom.xml" />
+        <option value="D:/../../ideaworkspace/springclouddemo/cloud-server-eureka/pom.xml" />
+        <option value="D:/../../ideaworkspace/springclouddemo/cloud-server-config/pom.xml" />
+        <option value="D:/../ideaworkspace/springclouddemo/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-api/pom.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/../../../../ideaworkspace/springclouddemo/out" />
+    <output url="file://D:/../../ideaworkspace/springclouddemo/out" />
   </component>
 </project>

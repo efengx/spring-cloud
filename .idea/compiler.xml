@@ -8,11 +8,15 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-server-config" />
         <module name="cloud-server-eureka" />
+        <module name="cloud-service-api" />
+        <module name="cloud-service-feign" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cloud-server-config" target="1.8" />
       <module name="cloud-server-eureka" target="1.8" />
+      <module name="cloud-service-api" target="1.8" />
+      <module name="cloud-service-feign" target="1.8" />
       <module name="spring-cloud-demo" target="1.5" />
       <module name="springclouddemo" target="1.5" />
     </bytecodeTargetLevel>
