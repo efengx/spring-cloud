@@ -18,7 +18,6 @@
       <module name="cloud-service-api" target="1.8" />
       <module name="cloud-service-feign" target="1.8" />
       <module name="spring-cloud-demo" target="1.5" />
-      <module name="springclouddemo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
