@@ -1,6 +1,6 @@
-package com.yangst.cloud.demo.service;
+package com.yangst.cloud.demo.api.service;
 
-import com.yangst.cloud.demo.entity.User;
+import com.yangst.cloud.demo.api.entity.User;
 import org.springframework.web.bind.annotation.*;
 
 @RequestMapping("/refactor")

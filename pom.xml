@@ -15,6 +15,7 @@
     <module>cloud-server-config</module>
     <module>cloud-service-api</module>
     <module>cloud-service-feign</module>
+    <module>cloud-service-feignconsumer</module>
   </modules>
 
   <properties>

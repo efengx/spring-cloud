@@ -1,7 +1,7 @@
 package com.yangst.cloud.demo.controller;
 
-import com.yangst.cloud.demo.entity.User;
-import com.yangst.cloud.demo.service.HelloRefactorService;
+import com.yangst.cloud.demo.api.entity.User;
+import com.yangst.cloud.demo.api.service.HelloRefactorService;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestParam;
