@@ -30,7 +30,9 @@ public class ConsumerController {
 	}
 	
 	@Autowired
-	RefactorHelloService refactorHelloService;
+	private RefactorHelloService refactorHelloService;
+
+
 	@RequestMapping(value ="/feign-consumer3",method=RequestMethod.GET)
 	public String helloConsumer3(){
 		StringBuffer sb =new StringBuffer();
