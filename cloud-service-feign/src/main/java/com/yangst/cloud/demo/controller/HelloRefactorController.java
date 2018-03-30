@@ -1,12 +1,11 @@
 package com.yangst.cloud.demo.controller;
 
+import com.yangst.cloud.demo.entity.User;
+import com.yangst.cloud.demo.service.HelloRefactorService;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import com.yangst.demo.api.entity.User;
-import com.yangst.demo.api.service.HelloRefactorService;
 
 @RestController
 public class HelloRefactorController implements HelloRefactorService {
@@ -16,7 +15,7 @@ public class HelloRefactorController implements HelloRefactorService {
 		return "Hello"+name;
 	}
 	@Override
-	public User hello(@RequestHeader("name") String name,@RequestHeader("age") Integer age) {
+	public User hello(@RequestHeader("name") String name, @RequestHeader("age") Integer age) {
 		return new User(name,age);
 	}
 	@Override
