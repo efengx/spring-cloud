@@ -7,4 +7,6 @@
 ****5.cloud-service-feignconsumer 服务消费者 包含feign（ribbon,hystrix）        
 ****6.cloud-server-hystrix-dashboard 熔断监控单应用   
 ****7.cloud-server-zuul 网关 路由/校验    
-****8.cloud-server-turbine 熔断监控集群应用     
+****8.cloud-server-turbine 熔断监控集群应用   
+  
+需增加 对redis/mq/mongoDB/sharding-jdbc的支持
