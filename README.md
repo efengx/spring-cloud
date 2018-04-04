@@ -5,5 +5,6 @@
 ****3.cloud-service-feign 服务提供者     
 ****4.cloud-service-api 服务接口        
 ****5.cloud-service-feignconsumer 服务消费者 包含feign（ribbon,hystrix） 
-****6.cloud-server-hystrix-dashboard 熔断监控   
-****7.cloud-server-zuul 网关 路由/校验
+****6.cloud-server-hystrix-dashboard 熔断监控单应用   
+****7.cloud-server-zuul 网关 路由/校验    
+****8.cloud-server-turbine 熔断监控集群应用     

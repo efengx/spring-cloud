@@ -14,6 +14,7 @@
     <module>cloud-server-eureka</module>
     <module>cloud-server-config</module>
     <module>cloud-server-hystrix-dashboard</module>
+    <module>cloud-server-turbine</module>
     <module>cloud-server-zuul</module>
     <module>cloud-service-api</module>
     <module>cloud-service-feign</module>
