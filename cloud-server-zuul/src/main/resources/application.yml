@@ -28,15 +28,11 @@ eureka:
 #集群环境 多实例配置
 #hello-service.ribbon.listOfServers= http://localhost:8080/,http://localhost:8081/
 
-zuul.routes.service-consumer.path=/service-consumer/**
-zuul.routes.service-consumer.url=http://localhost:9002/
 zuul:
   routes:
     service-provider:
       path: /service-provider/**
       url: http://localhost:9001/
     service-consumer:
-
-
-#zuul.routes.ribbon-consumer.path=/ribbon-consumer/**
-#zuul.routes.ribbon-consumer.url=http://localhost:9000/
+      path: /service-consumer/**
+      url: http://localhost:9002/
