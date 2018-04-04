@@ -8,5 +8,6 @@
 ****6.cloud-server-hystrix-dashboard 熔断监控单应用   
 ****7.cloud-server-zuul 网关 路由/校验    
 ****8.cloud-server-turbine 熔断监控集群应用   
+****9.cloud-service-common 公共类
   
 需增加 对redis/mq/mongoDB/sharding-jdbc的支持
