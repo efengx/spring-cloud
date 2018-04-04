@@ -4,6 +4,7 @@ import com.yangst.cloud.demo.entity.User;
 import com.yangst.cloud.demo.service.HelloService;
 import com.yangst.cloud.demo.service.RefactorHelloService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,7 +14,15 @@ import org.springframework.web.bind.annotation.RestController;
 public class ConsumerController {
 	@Autowired
 	HelloService helloService;
-	
+
+	@Value("${test}")
+	String test;
+
+	@RequestMapping(value ="/getString",method=RequestMethod.GET)
+	public String getString(){
+		return test;
+	}
+
 	@RequestMapping(value ="/feign-consumer",method=RequestMethod.GET)
 	public String helloConsumer(){
 		return helloService.hello();

@@ -1,6 +1,13 @@
 spring:
   application:
     name: service-consumer
+  cloud:
+    config:
+      #对应配置文件规则中的{label}部分
+      label: master
+      #对应配置文件规则中的{profile}部分
+      profile: dev
+      uri: http://localhost:8083/
 server:
   port: 9002
 eureka:
