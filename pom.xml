@@ -16,6 +16,7 @@
     <module>cloud-server-hystrix-dashboard</module>
     <module>cloud-server-turbine</module>
     <module>cloud-server-zuul</module>
+    <module>cloud-service-commom</module>
     <module>cloud-service-api</module>
     <module>cloud-service-feign</module>
     <module>cloud-service-feignconsumer</module>
