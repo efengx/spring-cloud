@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: cloud-server-zuul
+server:
+  port: 8181
+eureka:
+  client:
+    serviceUrl:
+       defaultZone: http://localhost:8080/eureka/
+
+#不希望被路由
+#zuul.ignored-patterns=/**/hello/**
+#重定向到带有/local的地址
+#zuul.routes.hello-service.url=forward:/local
+#全局关闭重试机制
+#zuul.retryable=false
+#指定路由关闭重试机制
+#zuul.routes.hello-service.retryable=false
+
+
+
+
+#zuul.routes.hello-service.path=/hello-service/**
+#zuul.routes.hello-service.service-id=hello-service
+#service-id指定服务名称，默认ribbon会根据服务发现机制获取配置服务名清单
+#未整合服务治理框架，所以需要设置false
+#ribbon.eureka.enabled=false
+#集群环境 多实例配置
+#hello-service.ribbon.listOfServers= http://localhost:8080/,http://localhost:8081/
+
+zuul.routes.service-consumer.path=/service-consumer/**
+zuul.routes.service-consumer.url=http://localhost:9002/
+zuul:
+  routes:
+    service-provider:
+      path: /service-provider/**
+      url: http://localhost:9001/
+    service-consumer:
+
+
+#zuul.routes.ribbon-consumer.path=/ribbon-consumer/**
+#zuul.routes.ribbon-consumer.url=http://localhost:9000/
