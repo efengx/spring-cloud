@@ -38,7 +38,7 @@ public class ConsumerController {
 		return sb.toString();
 	}
 	
-	@Autowired
+	/*@Autowired
 	private RefactorHelloService refactorHelloService;
 
 
@@ -49,5 +49,5 @@ public class ConsumerController {
 		sb.append(refactorHelloService.hello("DADA", 30)).append("\n");
 		sb.append(refactorHelloService.hello(new com.yangst.cloud.demo.api.entity.User("didi",60))).append("\n");
 		return sb.toString();
-	}
+	}*/
 }

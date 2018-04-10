@@ -18,12 +18,7 @@ import redis.clients.jedis.JedisPoolConfig;
 
 
 /**
- * 
  * redis配置
- *
- * @version
- * @author Hermit 2017年4月15日 下午3:07:39
- *
  */
 @Configuration
 @EnableAutoConfiguration
