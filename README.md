@@ -9,8 +9,8 @@
 ****7.cloud-server-zuul 网关 路由/校验    
 ****8.cloud-server-turbine 熔断监控集群应用   
 ****9.cloud-service-common 公共类
-
-****10.使用
+****10.cloud-server-admin 服务监控
+****11.使用
         <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-redis</artifactId>
@@ -22,7 +22,7 @@
 		</dependency>
 		添加对redis的支持
 
- **** 11.添加sharding-jdbc与JPA的支持  
+ **** 12.添加sharding-jdbc与JPA的支持  
      <dependency>
      			<groupId>org.springframework.boot</groupId>
      			<artifactId>spring-boot-starter-data-jpa</artifactId>

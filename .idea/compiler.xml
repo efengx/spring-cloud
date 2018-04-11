@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-server-admin" />
         <module name="cloud-server-config" />
         <module name="cloud-server-eureka" />
         <module name="cloud-server-hystrix-dashboard" />
@@ -18,6 +19,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-server-admin" target="1.8" />
       <module name="cloud-server-config" target="1.8" />
       <module name="cloud-server-eureka" target="1.8" />
       <module name="cloud-server-hystrix-dashboard" target="1.8" />

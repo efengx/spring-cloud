@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-server-admin/cloud-server-admin.iml" filepath="$PROJECT_DIR$/cloud-server-admin/cloud-server-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-server-config/cloud-server-config.iml" filepath="$PROJECT_DIR$/cloud-server-config/cloud-server-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-server-eureka/cloud-server-eureka.iml" filepath="$PROJECT_DIR$/cloud-server-eureka/cloud-server-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-server-hystrix-dashboard/cloud-server-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/cloud-server-hystrix-dashboard/cloud-server-hystrix-dashboard.iml" />

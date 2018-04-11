@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: cloud-server-admin
+server:
+    port: 8085 #Æô¶¯¶Ë¿Ú
+
+eureka:
+     instance:
+        preferIpAddress: true
+        statusPageUrlPath: /actuator/info
+        healthCheckUrlPath: /actuator/health
+     client:
+        registerWithEureka: true
+        fetchRegistry: true
+        serviceUrl:
+          defaultZone: http://localhost:8080/eureka/
