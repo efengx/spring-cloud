@@ -24,6 +24,7 @@
 		<java.version>1.8</java.version>
 		<spring-cloud.version>Finchley.M9</spring-cloud.version>
 		<boot.admin.version>1.5.7</boot.admin.version>
+		<skipTests>true</skipTests>
 	</properties>
 
 	<dependencies>

@@ -8,6 +8,6 @@ import com.yangst.cloud.demo.quary.core.BaseRepository;
  * @author YST
  *
  */
-public interface OrderRepositoryMaster extends BaseRepository<User, Long> {
+public interface UserRepositoryMaster extends BaseRepository<User, Long> {
 	
 }

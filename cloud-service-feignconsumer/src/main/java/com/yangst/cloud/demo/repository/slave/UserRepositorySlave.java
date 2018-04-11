@@ -12,6 +12,6 @@ import org.springframework.data.jpa.repository.Query;
  * @author YST
  *
  */
-public interface OrderRepositorySlave extends BaseRepository<User, Long> {
+public interface UserRepositorySlave extends BaseRepository<User, Long> {
 	
 }

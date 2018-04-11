@@ -12,7 +12,6 @@
         <module name="cloud-server-hystrix-dashboard" />
         <module name="cloud-server-turbine" />
         <module name="cloud-server-zuul" />
-        <module name="cloud-service-api" />
         <module name="cloud-service-commom" />
         <module name="cloud-service-feign" />
         <module name="cloud-service-feignconsumer" />

@@ -1,9 +1,10 @@
 package com.yangst.cloud.demo.quary.annotation;
+import com.yangst.cloud.demo.quary.Where;
+
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-import cloud.service.common.jpa.quary.Where;
 
 
 /**

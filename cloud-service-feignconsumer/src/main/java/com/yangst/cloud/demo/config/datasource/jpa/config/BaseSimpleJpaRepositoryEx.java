@@ -59,7 +59,7 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 	 * 自定义查询条件转换实现
 	 * 
 	 * (non-Javadoc)
-	 * @see /*com.gws.utils.query.core.GwsBaseRepository#getConditonByQuery(com.gws.utils.query.core.BaseQuery)*/
+	 * @see //com.gws.utils.query.core.GwsBaseRepository#getConditonByQuery(com.gws.utils.query.core.BaseQuery)
 	 */
 	private Specification<T> getConditonByQuery(BaseQuery query) {
 		return new QueryToSpecification(query);
@@ -69,7 +69,7 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 	 * 封装自定义组合查询列表方法
 	 * 
 	 * (non-Javadoc)
-	 * @see /*com.gws.utils.query.core.GwsBaseRepository#findAll(com.gws.utils.query.core.BaseQuery)*/
+	 * @see //com.gws.utils.query.core.GwsBaseRepository#findAll(com.gws.utils.query.core.BaseQuery)
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
@@ -104,7 +104,7 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 	 * 查询条件
 	 * 
 	 * (non-Javadoc)
-	 * @see /*com.gws.utils.query.core.GwsBaseRepository#findOne(com.gws.utils.query.core.BaseQuery)*/
+	 * @see //com.gws.utils.query.core.GwsBaseRepository#findOne(com.gws.utils.query.core.BaseQuery)
 	 */
 	@Override
 	public T findOne(BaseQuery query) {
@@ -296,7 +296,7 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 	 * 封装自定义组合查询排序列表方法
 	 * 
 	 * (non-Javadoc)
-	 * @see /*com.gws.utils.query.core.GwsBaseRepository#findAll(com.gws.utils.query.core.BaseQuery, Sort)*/
+	 * @see //com.gws.utils.query.core.GwsBaseRepository#findAll(com.gws.utils.query.core.BaseQuery, Sort)
 	 */
 	@Override
 	public List<T> findAll(BaseQuery query, Sort sort) {
