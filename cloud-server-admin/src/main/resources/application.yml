@@ -2,7 +2,7 @@ spring:
   application:
     name: cloud-server-admin
 server:
-    port: 8085 #Æô¶¯¶Ë¿Ú
+    port: 8085
 
 eureka:
      instance:

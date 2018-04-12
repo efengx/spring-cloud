@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.quary.core;
+package com.yangst.cloud.demo.common.quary.core;
 
 import java.beans.BeanInfo;
 import java.beans.Introspector;
@@ -18,8 +18,8 @@ import javax.persistence.criteria.Path;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
-import com.yangst.cloud.demo.quary.annotation.QBindAttrField;
-import com.yangst.cloud.demo.quary.annotation.QBindEntity;
+import com.yangst.cloud.demo.common.quary.annotation.QBindAttrField;
+import com.yangst.cloud.demo.common.quary.annotation.QBindEntity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

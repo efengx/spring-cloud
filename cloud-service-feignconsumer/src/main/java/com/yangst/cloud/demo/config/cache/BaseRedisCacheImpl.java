@@ -19,7 +19,7 @@ public class BaseRedisCacheImpl extends AbstractBaseRedis implements CacheClient
 	 * 设置缓存值
 	 * 
 	 * (non-Javadoc)
-	 * @see com.gws.utils.cache.CacheClient#set(String, Object, Long, Class)
+	 * @see //com.gws.utils.cache.CacheClient#set(String, Object, Long, Class)
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
@@ -37,7 +37,7 @@ public class BaseRedisCacheImpl extends AbstractBaseRedis implements CacheClient
 	 * 设置缓存值
 	 * 
 	 * (non-Javadoc)
-	 * @see com.opengroup.longmao.gwcommon.configuration.redis.cache.CacheClient#set(String, String, Object)
+	 * @see //com.opengroup.longmao.gwcommon.configuration.redis.cache.CacheClient#set(String, String, Object)
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
@@ -56,7 +56,7 @@ public class BaseRedisCacheImpl extends AbstractBaseRedis implements CacheClient
 	 * 设置缓存值
 	 * 
 	 * (non-Javadoc)
-	 * @see com.opengroup.longmao.gwcommon.configuration.redis.cache.CacheClient#set(String, String, Object)
+	 * @see //com.opengroup.longmao.gwcommon.configuration.redis.cache.CacheClient#set(String, String, Object)
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
@@ -74,7 +74,7 @@ public class BaseRedisCacheImpl extends AbstractBaseRedis implements CacheClient
 	 * 设置小键的值
 	 * 
 	 * (non-Javadoc)
-	 * @see com.opengroup.longmao.gwcommon.configuration.redis.cache.CacheClient#hashSet(String, String, Object)
+	 * @see //com.opengroup.longmao.gwcommon.configuration.redis.cache.CacheClient#hashSet(String, String, Object)
 	 */
 	public <T> boolean hashSet(String realKey,String hashKey, T t) {
 		if (realKey == null || hashKey == null) {
@@ -89,7 +89,7 @@ public class BaseRedisCacheImpl extends AbstractBaseRedis implements CacheClient
 	 * 得到最外层的大键的值
 	 * 
 	 * (non-Javadoc)
-	 * @see com.opengroup.longmao.gwcommon.configuration.redis.cache.CacheClient#hashGet(String)
+	 * @see //com.opengroup.longmao.gwcommon.configuration.redis.cache.CacheClient#hashGet(String)
 	 */
 	public <T> T hashGet(String realKey) {
 		if (realKey == null) {
@@ -103,7 +103,7 @@ public class BaseRedisCacheImpl extends AbstractBaseRedis implements CacheClient
 	 * 根据大键和小键，得到小键的值
 	 * 
 	 * (non-Javadoc)
-	 * @see com.opengroup.longmao.gwcommon.configuration.redis.cache.CacheClient#hashGet(String, String)
+	 * @see //com.opengroup.longmao.gwcommon.configuration.redis.cache.CacheClient#hashGet(String, String)
 	 */
 	public <T> T hashGet(String realKey,String hashKey) {
 		if (realKey == null|| hashKey == null) {
@@ -117,7 +117,7 @@ public class BaseRedisCacheImpl extends AbstractBaseRedis implements CacheClient
 	 * 【根据最外层大键删除所有的值】
 	 * 
 	 * (non-Javadoc)
-	 * @see com.opengroup.longmao.gwcommon.configuration.redis.cache.CacheClient#hashDelete(String)
+	 * @see //com.opengroup.longmao.gwcommon.configuration.redis.cache.CacheClient#hashDelete(String)
 	 */
 	public <T> boolean hashDelete(String realKey) {
 		if (realKey == null) {
@@ -150,7 +150,7 @@ public class BaseRedisCacheImpl extends AbstractBaseRedis implements CacheClient
 	 * 获取缓存值
 	 * 
 	 * (non-Javadoc)
-	 * @see com.gws.utils.cache.CacheClient#get(String)
+	 * @see //com.gws.utils.cache.CacheClient#get(String)
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
@@ -166,7 +166,7 @@ public class BaseRedisCacheImpl extends AbstractBaseRedis implements CacheClient
 	 * 删除缓存
 	 * 
 	 * (non-Javadoc)
-	 * @see com.gws.utils.cache.CacheClient#delete(String)
+	 * @see //com.gws.utils.cache.CacheClient#delete(String)
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
@@ -182,7 +182,7 @@ public class BaseRedisCacheImpl extends AbstractBaseRedis implements CacheClient
 	 * 获取列表缓存
 	 * 
 	 * (non-Javadoc)
-	 * @see com.gws.utils.cache.CacheClient#getList(String, String, Class)
+	 * @see //com.gws.utils.cache.CacheClient#getList(String, String, Class)
 	 */
 	@SuppressWarnings("unchecked")
 	@Override
@@ -200,7 +200,7 @@ public class BaseRedisCacheImpl extends AbstractBaseRedis implements CacheClient
 	 * 【请在此输入描述文字】
 	 * 
 	 * (non-Javadoc)
-	 * @see com.gws.utils.cache.CacheClient#setList(String, String, List)
+	 * @see //com.gws.utils.cache.CacheClient#setList(String, String, List)
 	 */
 	@SuppressWarnings("unchecked")
 	@Override

@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.quary.core;
+package com.yangst.cloud.demo.common.quary.core;
 
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;

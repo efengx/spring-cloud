@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.shardingrule;
+package com.yangst.cloud.demo.common.shardingrule;
 
 import com.dangdang.ddframe.rdb.sharding.api.ShardingValue;
 import com.dangdang.ddframe.rdb.sharding.api.strategy.table.SingleKeyTableShardingAlgorithm;

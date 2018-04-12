@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.log;
+package com.yangst.cloud.demo.common.log;
 
 /**
  * 用户访问日志

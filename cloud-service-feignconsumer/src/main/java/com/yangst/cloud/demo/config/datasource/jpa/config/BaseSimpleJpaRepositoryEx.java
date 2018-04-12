@@ -2,7 +2,7 @@ package com.yangst.cloud.demo.config.datasource.jpa.config;
 
 import java.io.Serializable;
 import java.util.List;
-import java.util.Map;
+import java.util.Optional;
 
 import org.apache.commons.beanutils.PropertyUtils;
 import javax.persistence.EntityManager;
@@ -11,11 +11,11 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaUpdate;
 import javax.persistence.criteria.Root;
 
-import com.yangst.cloud.demo.log.GwsLogger;
-import com.yangst.cloud.demo.quary.core.BaseQuery;
-import com.yangst.cloud.demo.quary.core.BaseQueryPredicateBuilder;
-import com.yangst.cloud.demo.quary.core.BaseRepository;
-import com.yangst.cloud.demo.quary.core.QueryToSpecification;
+import com.yangst.cloud.demo.common.log.GwsLogger;
+import com.yangst.cloud.demo.common.quary.core.BaseQuery;
+import com.yangst.cloud.demo.common.quary.core.BaseQueryPredicateBuilder;
+import com.yangst.cloud.demo.common.quary.core.BaseRepository;
+import com.yangst.cloud.demo.common.quary.core.QueryToSpecification;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -106,8 +106,7 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 	 * (non-Javadoc)
 	 * @see //com.gws.utils.query.core.GwsBaseRepository#findOne(com.gws.utils.query.core.BaseQuery)
 	 */
-	@Override
-	public T findOne(BaseQuery query) {
+	public Optional<T> findOne(BaseQuery query) {
 		return findOne(getConditonByQuery(query));
 	}
 	
@@ -129,17 +128,16 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 		return super.getDomainClass();
 	}
 
-	@Override
 	public T findOne(ID id) {
 		// TODO 这是系统自动生成描述，请在此补完后续代码
-		return super.findOne(id);
+		return super.getOne(id);
 	}
 
-	@Override
-	protected Map<String, Object> getQueryHints() {
+	/*@Override
+	protected QueryHints getQueryHints() {
 		// TODO 这是系统自动生成描述，请在此补完后续代码
 		return super.getQueryHints();
-	}
+	}*/
 
 	@Override
 	public T getOne(ID id) {
@@ -147,16 +145,14 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 		return super.getOne(id);
 	}
 
-	@Override
 	public boolean exists(ID id) {
 		// TODO 这是系统自动生成描述，请在此补完后续代码
-		return super.exists(id);
+		return super.existsById(id);
 	}
 
-	@Override
 	public List<T> findAll(Iterable<ID> ids) {
 		// TODO 这是系统自动生成描述，请在此补完后续代码
-		return super.findAll(ids);
+		return super.findAllById(ids);
 	}
 
 	@Override
@@ -172,7 +168,7 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 	}
 
 	@Override
-	public T findOne(Specification<T> spec) {
+	public Optional<T> findOne(Specification<T> spec) {
 		// TODO 这是系统自动生成描述，请在此补完后续代码
 		return super.findOne(spec);
 	}
@@ -196,7 +192,7 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 	}
 
 	@Override
-	public <S extends T> S findOne(Example<S> example) {
+	public <S extends T> Optional<S> findOne(Example<S> example) {
 		// TODO 这是系统自动生成描述，请在此补完后续代码
 		return super.findOne(example);
 	}
@@ -304,9 +300,8 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 	}
 
 	@Transactional(readOnly=false,propagation=Propagation.REQUIRED)
-	@Override
 	public <S extends T> List<S> save(Iterable<S> arg0) {
-		return super.save(arg0);
+		return super.saveAll(arg0);
 	}
 
 	@Transactional(readOnly=false,propagation=Propagation.REQUIRED)
@@ -328,9 +323,8 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 	}
 
 	@Transactional(readOnly=false,propagation=Propagation.REQUIRED)
-	@Override
 	public void delete(ID id) {
-		super.delete(id);
+		super.deleteById(id);
 	}
 
 	@Transactional(readOnly=false,propagation=Propagation.REQUIRED)
@@ -340,9 +334,8 @@ public class BaseSimpleJpaRepositoryEx<T, ID extends Serializable>
 	}
 
 	@Transactional(readOnly=false,propagation=Propagation.REQUIRED)
-	@Override
 	public void delete(Iterable<? extends T> entities) {
-		super.delete(entities);
+		super.deleteAll(entities);
 	}
 
 	@Transactional(readOnly=false,propagation=Propagation.REQUIRED)

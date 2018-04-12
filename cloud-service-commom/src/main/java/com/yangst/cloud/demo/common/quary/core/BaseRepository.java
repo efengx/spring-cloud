@@ -1,7 +1,8 @@
-package com.yangst.cloud.demo.quary.core;
+package com.yangst.cloud.demo.common.quary.core;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.Optional;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -60,7 +61,7 @@ public abstract interface BaseRepository<T, ID extends Serializable> extends Jpa
 	 * @param query
 	 * @return
 	 */
-	public abstract T findOne(BaseQuery query);
+	public abstract Optional<T> findOne(BaseQuery query);
 
 	/**
 	 * 
