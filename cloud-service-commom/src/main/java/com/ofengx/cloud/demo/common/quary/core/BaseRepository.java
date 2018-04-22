@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.common.quary.core;
+package com.ofengx.cloud.demo.common.quary.core;
 
 import java.io.Serializable;
 import java.util.List;

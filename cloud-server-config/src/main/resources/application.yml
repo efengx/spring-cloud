@@ -5,14 +5,10 @@ spring:
     config:
       server:
         git:
-          #GIT仓库地址
-          uri: https://github.com/yst6857/spring-cloud-demo.git
-          #配置仓库路径下相对搜索位置，可配置多个
+          # GIT warehouse
+          uri: https://github.com/efengx/spring-cloud-groovy.git
+          # Configuration file repository
           search-paths: config-repo
-          #访问GIT仓库的用户名
-          username: yangst6857@163.com
-          #访问GIT仓库的用户密码
-          password: yst904530
 
 server:
   port: 8083
@@ -21,7 +17,7 @@ server:
 #spring.cloud.config.server.health.repositories.check.name=configclient
 #spring.cloud.config.server.health.repositories.check.label=master
 #spring.cloud.config.server.health.repositories.check.profiles=dev
-#关闭健康检查
+#close health examination
 #spring.cloud.config.server.health.enabled=false
 
 #spring.cloud.config.username=user

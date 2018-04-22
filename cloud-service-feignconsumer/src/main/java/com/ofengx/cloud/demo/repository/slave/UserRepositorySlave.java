@@ -1,5 +1,6 @@
-package com.yangst.cloud.demo.repository.slave;
+package com.ofengx.cloud.demo.repository.slave;
 
+import com.ofengx.cloud.demo.entity.User;
 import com.yangst.cloud.demo.entity.User;
 import com.yangst.cloud.demo.common.quary.core.BaseRepository;
 

@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.config.datasource;
+package com.ofengx.cloud.demo.config.datasource;
 
 import java.sql.SQLException;
 import java.util.Arrays;
@@ -7,11 +7,11 @@ import java.util.Map;
 
 import javax.sql.DataSource;
 
-import com.yangst.cloud.demo.config.properties.datasource.DataSourceEnvConfig;
-import com.yangst.cloud.demo.config.properties.datasource.DataSourceMasterConfig;
-import com.yangst.cloud.demo.config.properties.datasource.DataSourceSlaveConfig;
-import com.yangst.cloud.demo.common.shardingrule.ModuloDatabaseShardingAlgorithm;
-import com.yangst.cloud.demo.common.shardingrule.ModuloTableShardingAlgorithm;
+import com.ofengx.cloud.demo.common.shardingrule.ModuloDatabaseShardingAlgorithm;
+import com.ofengx.cloud.demo.common.shardingrule.ModuloTableShardingAlgorithm;
+import com.ofengx.cloud.demo.config.properties.datasource.DataSourceEnvConfig;
+import com.ofengx.cloud.demo.config.properties.datasource.DataSourceMasterConfig;
+import com.ofengx.cloud.demo.config.properties.datasource.DataSourceSlaveConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

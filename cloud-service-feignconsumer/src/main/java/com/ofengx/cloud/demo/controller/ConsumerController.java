@@ -1,5 +1,7 @@
-package com.yangst.cloud.demo.controller;
+package com.ofengx.cloud.demo.controller;
 
+import com.ofengx.cloud.demo.entity.User;
+import com.ofengx.cloud.demo.service.HelloService;
 import com.yangst.cloud.demo.entity.User;
 import com.yangst.cloud.demo.service.HelloService;
 import com.yangst.cloud.demo.service.RefactorHelloService;
@@ -13,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConsumerController {
 	@Autowired
-	HelloService helloService;
+    HelloService helloService;
 
 	@Value("${test}")
 	String test;

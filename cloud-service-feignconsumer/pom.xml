@@ -28,6 +28,12 @@
 
 	<dependencies>
 		<dependency>
+			<groupId>org.codehaus.groovy</groupId>
+			<artifactId>groovy-all</artifactId>
+			<version>2.4.15</version>
+		</dependency>
+
+		<dependency>
 			<groupId>com.yangst.cloud.demo</groupId>
 			<artifactId>cloud-service-commom</artifactId>
 			<version>0.0.1-SNAPSHOT</version>

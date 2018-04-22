@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.config.cache;
+package com.ofengx.cloud.demo.config.cache;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;

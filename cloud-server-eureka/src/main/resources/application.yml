@@ -5,16 +5,15 @@ server:
   port: 8080
 eureka:
 #  server:
-#  关闭保护机制
+#  Close the protection mechanism
 #    enable-self-preservation: false
   instance:
     hostname: localhost
   client:
-  #    可配可不配 默认default,一个注册中心一个
   #    region: eureka
-  #    不向注册中心注册自己
+  #    No registration required
       register-with-eureka: false
-  #    注册中心的职责就是维护服务实例，不需要检索服务
+  #    Close search service
       fetch-registry: false
       serviceUrl:
           defaultZone: http://${eureka.instance.hostname}:8080/eureka/

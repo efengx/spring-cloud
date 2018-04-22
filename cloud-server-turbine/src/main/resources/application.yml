@@ -4,14 +4,14 @@ spring:
 server:
   port: 8182
 turbine:
-  #配置Eureka中的serviceId列表，表明监控哪些服务
+  #Configure the list of serviceIds in Eureka to indicate which services to monitor
   app-config: service-provider1,service-provider2
-  #指定聚合哪些集群，多个使用”,”分割，默认为default。可使用http://.../turbine.stream?cluster={clusterConfig之一}访问
+  #Specify which clusters to aggregate. Multiple use "," split, the default is default. Can be accessed using http://.../turbine.stream?cluster=one of {clusterConfig}
   aggregator:
     cluster-config: default
-  #1. clusterNameExpression指定集群名称，默认表达式appName；
-  #此时：turbine.aggregator.clusterConfig需要配置想要监控的应用名称；
-  #2. 当clusterNameExpression: default时，turbine.aggregator.clusterConfig可以不写，因为默认就是default；
-  #3. 当clusterNameExpression: metadata[‘cluster’]时，假设想要监控的应用配置了eureka.instance.metadata-map.cluster: ABC，
-  #则需要配置，同时turbine.aggregator.clusterConfig: ABC
+  #1. clusterNameExpression specifies the cluster name, the default expression appName;
+  #At this point: turtle.aggregator.clusterConfig needs to configure the application name you want to monitor;
+  #2. When clusterNameExpression: default, turbine.aggregator.clusterConfig can not write, because the default is default;
+  #3. When using clusterNameExpression:metadata[‘cluster’], suppose the application you want to monitor is configured with eureka.instance.metadata-map.cluster: ABC.
+  # You need to configure while the turbine.aggregator.clusterConfig: ABC
   cluster-name-expression: new String("default")

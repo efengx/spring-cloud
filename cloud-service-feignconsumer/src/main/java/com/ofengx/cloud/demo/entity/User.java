@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.entity;
+package com.ofengx.cloud.demo.entity;
 
 public class User {
 	private String name;

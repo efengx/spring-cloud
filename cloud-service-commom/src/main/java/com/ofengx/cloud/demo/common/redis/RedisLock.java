@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.common.redis;
+package com.ofengx.cloud.demo.common.redis;
 
 
 import org.slf4j.Logger;

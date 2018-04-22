@@ -1,4 +1,5 @@
-package com.yangst.cloud.demo.common.quary.annotation;
+package com.ofengx.cloud.demo.common.quary.annotation;
+import com.ofengx.cloud.demo.common.quary.Where;
 import com.yangst.cloud.demo.common.quary.Where;
 
 import java.lang.annotation.Retention;

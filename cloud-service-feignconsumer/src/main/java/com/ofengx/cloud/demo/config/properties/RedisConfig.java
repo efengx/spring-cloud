@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.config.properties;
+package com.ofengx.cloud.demo.config.properties;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;

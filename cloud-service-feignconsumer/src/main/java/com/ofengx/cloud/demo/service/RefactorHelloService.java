@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.service;
+package com.ofengx.cloud.demo.service;
 
 /*import com.yangst.cloud.demo.service.fallback.HelloServiceFallback;
 import org.springframework.cloud.openfeign.FeignClient;

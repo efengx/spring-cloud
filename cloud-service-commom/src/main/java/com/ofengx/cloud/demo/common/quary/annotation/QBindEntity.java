@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.common.quary.annotation;
+package com.ofengx.cloud.demo.common.quary.annotation;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

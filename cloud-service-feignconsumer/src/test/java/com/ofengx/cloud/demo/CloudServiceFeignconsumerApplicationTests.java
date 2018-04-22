@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo;
+package com.ofengx.cloud.demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,5 +1,7 @@
-package com.yangst.cloud.demo.service.fallback;
+package com.ofengx.cloud.demo.service.fallback;
 
+import com.ofengx.cloud.demo.entity.User;
+import com.ofengx.cloud.demo.service.HelloService;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
@@ -24,7 +26,7 @@ public class HelloServiceFallback implements HelloService {
 	}
 
 	@Override
-	public User hello(@RequestHeader("name") String name,@RequestHeader("age") Integer age) {
+	public User hello(@RequestHeader("name") String name, @RequestHeader("age") Integer age) {
 		// TODO Auto-generated method stub
 		return new User("未知",0);
 	}

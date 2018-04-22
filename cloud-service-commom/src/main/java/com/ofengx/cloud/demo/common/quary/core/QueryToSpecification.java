@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.common.quary.core;
+package com.ofengx.cloud.demo.common.quary.core;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;

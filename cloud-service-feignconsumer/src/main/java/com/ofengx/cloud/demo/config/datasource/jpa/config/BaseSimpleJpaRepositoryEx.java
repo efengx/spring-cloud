@@ -1,9 +1,13 @@
-package com.yangst.cloud.demo.config.datasource.jpa.config;
+package com.ofengx.cloud.demo.config.datasource.jpa.config;
 
 import java.io.Serializable;
 import java.util.List;
 import java.util.Optional;
 
+import com.ofengx.cloud.demo.common.quary.core.BaseQuery;
+import com.ofengx.cloud.demo.common.quary.core.BaseQueryPredicateBuilder;
+import com.ofengx.cloud.demo.common.quary.core.BaseRepository;
+import com.ofengx.cloud.demo.common.quary.core.QueryToSpecification;
 import org.apache.commons.beanutils.PropertyUtils;
 import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;

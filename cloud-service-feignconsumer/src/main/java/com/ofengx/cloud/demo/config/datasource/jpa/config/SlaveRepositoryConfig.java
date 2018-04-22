@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.config.datasource.jpa.config;
+package com.ofengx.cloud.demo.config.datasource.jpa.config;
 
 import java.util.Map;
 

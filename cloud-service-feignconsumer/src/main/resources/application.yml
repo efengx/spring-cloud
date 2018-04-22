@@ -3,9 +3,9 @@ spring:
     name: service-consumer
   cloud:
     config:
-      #对应配置文件规则中的{label}部分
+      #The {label} section in the corresponding profile rule
       label: master
-      #对应配置文件规则中的{profile}部分
+      #The {profile} section in the corresponding profile rule
       profile: dev
       uri: http://localhost:8083/
 server:

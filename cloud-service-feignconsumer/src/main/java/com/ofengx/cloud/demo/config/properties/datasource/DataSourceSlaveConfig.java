@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.config.properties.datasource;
+package com.ofengx.cloud.demo.config.properties.datasource;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

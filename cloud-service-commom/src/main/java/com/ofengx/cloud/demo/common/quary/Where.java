@@ -1,4 +1,4 @@
-package com.yangst.cloud.demo.common.quary;
+package com.ofengx.cloud.demo.common.quary;
 
 /**
  * 目前系统支持的where查询条件关键字

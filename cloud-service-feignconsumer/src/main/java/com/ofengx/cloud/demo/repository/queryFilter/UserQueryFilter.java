@@ -1,6 +1,7 @@
-package com.yangst.cloud.demo.repository.queryFilter;
+package com.ofengx.cloud.demo.repository.queryFilter;
 
 
+import com.ofengx.cloud.demo.entity.User;
 import com.yangst.cloud.demo.entity.User;
 import com.yangst.cloud.demo.common.quary.Where;
 import com.yangst.cloud.demo.common.quary.annotation.QBindAttrField;

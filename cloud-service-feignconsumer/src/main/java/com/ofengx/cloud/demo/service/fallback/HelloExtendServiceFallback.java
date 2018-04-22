@@ -1,5 +1,7 @@
-package com.yangst.cloud.demo.service.fallback;
+package com.ofengx.cloud.demo.service.fallback;
 
+import com.ofengx.cloud.demo.entity.User;
+import com.ofengx.cloud.demo.service.HelloExtendService;
 import com.yangst.cloud.demo.entity.User;
 import com.yangst.cloud.demo.service.HelloExtendService;
 import feign.hystrix.FallbackFactory;
