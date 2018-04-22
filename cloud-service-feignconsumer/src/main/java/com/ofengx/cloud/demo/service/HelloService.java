@@ -1,7 +1,7 @@
 package com.ofengx.cloud.demo.service;
 
-import com.yangst.cloud.demo.entity.User;
-import com.yangst.cloud.demo.service.fallback.HelloServiceFallback;
+import com.ofengx.cloud.demo.entity.User;
+import com.ofengx.cloud.demo.service.fallback.HelloServiceFallback;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;

@@ -2,9 +2,6 @@ package com.ofengx.cloud.demo.controller;
 
 import com.ofengx.cloud.demo.entity.User;
 import com.ofengx.cloud.demo.service.HelloService;
-import com.yangst.cloud.demo.entity.User;
-import com.yangst.cloud.demo.service.HelloService;
-import com.yangst.cloud.demo.service.RefactorHelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;

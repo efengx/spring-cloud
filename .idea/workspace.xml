@@ -2,98 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05620f64-2612-4949-8207-e3c3c2a5ff55" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-server-admin/src/main/java/com/ofengx/cloud/demo/CloudServerAdminApplication.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-server-admin/src/test/java/com/ofengx/cloud/demo/CloudServerAdminApplicationTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-server-config/src/main/java/com/ofengx/cloud/demo/CloudServerConfigApplication.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-server-eureka/src/main/java/com/ofengx/cloud/demo/CloudServerEurekaApplication.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-server-hystrix-dashboard/src/main/java/com/ofengx/cloud/demo/CloudServerHystrixDashboardApplication.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-server-hystrix-dashboard/src/test/java/com/ofengx/cloud/demo/CloudServerHystrixDashboardApplicationTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-server-turbine/src/main/java/com/ofengx/cloud/demo/CloudServerTurbineApplication.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-server-turbine/src/test/java/com/ofengx/cloud/demo/CloudServerTurbineApplicationTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-server-zuul/src/main/java/com/ofengx/cloud/demo/CloudServerZuulApplication.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-server-zuul/src/main/java/com/ofengx/cloud/demo/filter/AccessFilter.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-server-zuul/src/test/java/com/ofengx/cloud/demo/CloudServerZuulApplicationTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/CloudServiceCommomApplication.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/AccessLog.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/GlobalConstant.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/GwsLogger.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/GwsLoggerTypeEnum.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-service-commom/src/test/java/com/ofengx/cloud/demo/CloudServiceCommomApplicationTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/CloudServiceFeignApplication.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-service-feign/src/test/java/com/ofengx/cloud/demo/CloudServiceFeignApplicationTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/CloudServiceFeignconsumerApplication.groovy" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/controller/HelloController.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/entity/User.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_all_2_4_13.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server-admin/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-admin/src/main/java/com/ofengx/cloud/demo/CloudServerAdminApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-admin/src/test/java/com/ofengx/cloud/demo/CloudServerAdminApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-config/src/main/java/com/ofengx/cloud/demo/CloudServerConfigApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server-config/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server-eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-eureka/src/main/java/com/ofengx/cloud/demo/CloudServerEurekaApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server-eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-hystrix-dashboard/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server-hystrix-dashboard/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-hystrix-dashboard/src/main/java/com/ofengx/cloud/demo/CloudServerHystrixDashboardApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-hystrix-dashboard/src/test/java/com/ofengx/cloud/demo/CloudServerHystrixDashboardApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-turbine/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server-turbine/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-turbine/src/main/java/com/ofengx/cloud/demo/CloudServerTurbineApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-turbine/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server-turbine/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-turbine/src/test/java/com/ofengx/cloud/demo/CloudServerTurbineApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-zuul/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server-zuul/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-zuul/src/main/java/com/ofengx/cloud/demo/CloudServerZuulApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-zuul/src/main/java/com/ofengx/cloud/demo/filter/AccessFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-zuul/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-server-zuul/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-server-zuul/src/test/java/com/ofengx/cloud/demo/CloudServerZuulApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-commom/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/CloudServiceCommomApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/AccessLog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/GlobalConstant.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/GwsLogger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/GwsLoggerTypeEnum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/Where.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/Where.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/annotation/QBindAttrField.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/annotation/QBindAttrField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/annotation/QBindEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/annotation/QBindEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/core/BaseQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/core/BaseQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/core/BaseQueryPredicateBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/core/BaseQueryPredicateBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/core/BaseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/core/BaseRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/core/QueryToSpecification.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/core/QueryToSpecification.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/redis/RedisLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/redis/RedisLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/shardingrule/ModuloDatabaseShardingAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/shardingrule/ModuloDatabaseShardingAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/shardingrule/ModuloTableShardingAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/shardingrule/ModuloTableShardingAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-commom/src/test/java/com/ofengx/cloud/demo/CloudServiceCommomApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feign/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feign/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/CloudServiceFeignApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feign/src/test/java/com/ofengx/cloud/demo/CloudServiceFeignApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/CloudServiceFeignconsumerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/cache/AbstractBaseRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/cache/AbstractBaseRedis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/cache/BaseRedisCacheImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/cache/BaseRedisCacheImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/cache/CacheClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/cache/CacheClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/cache/RedisCacheConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/cache/RedisCacheConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/datasource/DataSourceInfoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/datasource/DataSourceInfoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/datasource/jpa/config/BaseSimpleJpaRepositoryEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/datasource/jpa/config/BaseSimpleJpaRepositoryEx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/datasource/jpa/config/MasterRepositoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/datasource/jpa/config/MasterRepositoryConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/datasource/jpa/config/SlaveRepositoryConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/datasource/jpa/config/SlaveRepositoryConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/properties/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/properties/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/properties/datasource/DataSourceEnvConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/properties/datasource/DataSourceEnvConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/properties/datasource/DataSourceMasterConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/properties/datasource/DataSourceMasterConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/properties/datasource/DataSourceSlaveConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/properties/datasource/DataSourceSlaveConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/repository/master/UserRepositoryMaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/repository/master/UserRepositoryMaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/repository/queryFilter/UserQueryFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/repository/queryFilter/UserQueryFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/repository/slave/UserRepositorySlave.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/repository/slave/UserRepositorySlave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/service/HelloExtendService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/service/HelloExtendService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/service/HelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/service/RefactorHelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/service/RefactorHelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/service/fallback/HelloExtendServiceFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/service/fallback/HelloExtendServiceFallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/service/fallback/HelloServiceFallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/service/fallback/HelloServiceFallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cloud-service-feignconsumer/src/test/java/com/ofengx/cloud/demo/CloudServiceFeignconsumerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-service-feignconsumer/src/test/java/com/ofengx/cloud/demo/CloudServiceFeignconsumerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/service-consumer-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/service-consumer-dev.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cloud-service-api/target/" />
@@ -125,32 +48,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="CloudServiceCommomApplication.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/CloudServiceCommomApplication.groovy">
+      <file leaf-file-name="UserRepositorySlave.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/repository/slave/UserRepositorySlave.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="150">
+              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
               <folding>
-                <element signature="e#32#81#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CloudServiceCommomApplicationTest.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/test/java/com/ofengx/cloud/demo/CloudServiceCommomApplicationTest.groovy">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="120">
+              <caret line="8" column="41" selection-end-line="8" selection-end-column="49" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-feign/pom.xml">
+      <file leaf-file-name="QBindAttrField.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/annotation/QBindAttrField.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="255">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,17 +84,8 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            <state relative-caret-position="150">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -176,44 +93,61 @@
       <file leaf-file-name="CloudServiceFeignApplication.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/CloudServiceFeignApplication.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="105">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
               <folding>
-                <element signature="e#32#81#0" expanded="true" />
+                <element signature="e#31#80#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CloudServiceFeignconsumerApplication.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/CloudServiceFeignconsumerApplication.groovy">
+      <file leaf-file-name="CloudServiceCommomApplication.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/CloudServiceCommomApplication.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
-              <folding>
-                <element signature="e#32#81#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="75">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CloudServiceFeignApplicationTest.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/test/java/com/ofengx/cloud/demo/CloudServiceFeignApplicationTest.groovy">
+      <file leaf-file-name="HelloController.groovy" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/controller/HelloController.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+            <state relative-caret-position="301">
+              <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+              <folding>
+                <element signature="e#42#82#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/cloud-server-config/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-service-feign/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1335">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.groovy" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/entity/User.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -229,6 +163,8 @@
     <findStrings>
       <find>findOne(BaseQuery query)</find>
       <find>inheritedJdk</find>
+      <find>spring-cloud-vault-config</find>
+      <find>discoveryClient</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -237,18 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/yangst/cloud/demo/quary/core/BaseQueryPredicateBuilder.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/yangst/cloud/demo/repository/slave/UserRepositorySlave.java" />
-        <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/yangst/cloud/demo/repository/master/UserRepositoryMaster.java" />
-        <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/yangst/cloud/demo/config/cache/BaseRedisCacheImpl.java" />
-        <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/yangst/cloud/demo/config/datasource/jpa/config/SlaveRepositoryConfig.java" />
-        <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/yangst/cloud/demo/config/datasource/jpa/config/MasterRepositoryConfig.java" />
-        <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/yangst/cloud/demo/repository/queryFilter/UserQueryFilter.java" />
-        <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/yangst/cloud/demo/config/datasource/jpa/config/BaseSimpleJpaRepositoryEx.java" />
-        <option value="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/yangst/cloud/demo/common/quary/Where.java" />
-        <option value="$PROJECT_DIR$/cloud-server-admin/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/cloud-server-eureka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/datasource/DataSourceInfoConfig.java" />
@@ -262,7 +186,6 @@
         <option value="$PROJECT_DIR$/cloud-server-admin/src/main/java/com/ofengx/cloud/demo/CloudServerAdminApplication.groovy" />
         <option value="$PROJECT_DIR$/cloud-server-admin/src/test/java/com/ofengx/cloud/demo/CloudServerAdminApplicationTest.groovy" />
         <option value="$PROJECT_DIR$/cloud-server-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-server-eureka/src/main/java/com/ofengx/cloud/demo/CloudServerEurekaApplication.groovy" />
         <option value="$PROJECT_DIR$/cloud-server-hystrix-dashboard/src/main/java/com/ofengx/cloud/demo/CloudServerHystrixDashboardApplication.groovy" />
         <option value="$PROJECT_DIR$/cloud-server-hystrix-dashboard/src/test/java/com/ofengx/cloud/demo/CloudServerHystrixDashboardApplicationTest.groovy" />
         <option value="$PROJECT_DIR$/cloud-server-turbine/src/main/java/com/ofengx/cloud/demo/CloudServerTurbineApplication.groovy" />
@@ -287,7 +210,20 @@
         <option value="$PROJECT_DIR$/cloud-service-feign/src/test/java/com/ofengx/cloud/demo/CloudServiceFeignApplicationTest.groovy" />
         <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/CloudServiceFeignconsumerApplication.groovy" />
         <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-service-feignconsumer/.gitignore" />
+        <option value="$PROJECT_DIR$/config-repo/service-consumer-dev.yml" />
         <option value="$PROJECT_DIR$/cloud-service-feignconsumer/pom.xml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/cloud-server-eureka/src/main/java/com/ofengx/cloud/demo/CloudServerEurekaApplication.groovy" />
+        <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/controller/ConsumerController.java" />
+        <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/service/HelloService.java" />
+        <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/repository/slave/UserRepositorySlave.java" />
+        <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/repository/queryFilter/UserQueryFilter.java" />
+        <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/repository/master/UserRepositoryMaster.java" />
+        <option value="$PROJECT_DIR$/cloud-service-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/annotation/QBindAttrField.java" />
+        <option value="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/entity/User.groovy" />
+        <option value="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/controller/HelloController.groovy" />
       </list>
     </option>
   </component>
@@ -314,16 +250,6 @@
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="cloud-service-feign" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-service-feign" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-service-feign" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
@@ -334,10 +260,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="29" />
+    <option name="x" value="507" />
     <option name="y" value="23" />
-    <option name="width" value="1609" />
-    <option name="height" value="1057" />
+    <option name="width" value="1253" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -348,6 +274,8 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -358,162 +286,6 @@
             <path>
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-server-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-server-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-server-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-server-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-server-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-server-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-server-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-server-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-server-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-server-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-server-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-server-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-server-hystrix-dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-server-zuul" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-commom" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-commom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-commom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-commom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-commom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-commom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-commom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-commom" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
               <item name="cloud-service-feign" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -536,15 +308,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -610,23 +373,17 @@
               <item name="cloud-service-feignconsumer" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-feignconsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config-repo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -639,9 +396,9 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="groovy.util.GroovyTestCase" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="project.structure.side.proportion" value="0.57405615" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
@@ -680,7 +437,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CloudServerConfigApplication">
+  <component name="RunManager" selected="Spring Boot.CloudServerEurekaApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -785,16 +542,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="spring-cloud-demo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-    </configuration>
     <configuration name="CloudServerAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="cloud-server-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ofengx.cloud.demo.CloudServerAdminApplication" />
@@ -818,6 +565,16 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ofengx.cloud.demo.CloudServerEurekaApplication" />
+    </configuration>
+    <configuration name="CloudServiceCommomApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-service-commom" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ofengx.cloud.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ofengx.cloud.demo.CloudServiceCommomApplication" />
     </configuration>
     <configuration name="CloudServiceFeignApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-service-feign" />
@@ -1007,6 +764,16 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="spring-cloud-demo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+    </configuration>
     <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="filePath" />
@@ -1084,16 +851,18 @@
       <envs />
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.CloudServiceFeignApplication" />
       <item itemvalue="Spring Boot.CloudServerAdminApplication" />
+      <item itemvalue="Spring Boot.CloudServiceFeignApplication" />
       <item itemvalue="Spring Boot.CloudServerEurekaApplication" />
       <item itemvalue="Spring Boot.CloudServerConfigApplication" />
+      <item itemvalue="Spring Boot.CloudServiceCommomApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CloudServerConfigApplication" />
         <item itemvalue="Spring Boot.CloudServerEurekaApplication" />
+        <item itemvalue="Spring Boot.CloudServerConfigApplication" />
         <item itemvalue="Spring Boot.CloudServiceFeignApplication" />
+        <item itemvalue="Spring Boot.CloudServiceCommomApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -1124,7 +893,9 @@
       <workItem from="1524371275256" duration="38000" />
       <workItem from="1524371315370" duration="102000" />
       <workItem from="1524371419474" duration="7605000" />
-      <workItem from="1524387243386" duration="4215000" />
+      <workItem from="1524387243386" duration="15061000" />
+      <workItem from="1524405947340" duration="3555000" />
+      <workItem from="1524412162399" duration="1154000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1522390325734</created>
@@ -1256,15 +1027,15 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53090000" />
+    <option name="totallyTimeSpent" value="68645000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="29" y="23" width="1609" height="1057" extended-state="0" />
+    <frame x="507" y="23" width="1253" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.6108108" side_tool="true" weight="0.19768664" />
-      <window_info anchor="right" id="Maven Projects" order="10" visible="true" weight="0.19655393" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.14863749" side_tool="true" visible="true" weight="0.36666667" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.3404437" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="3" />
@@ -1274,25 +1045,25 @@
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.22187172" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.22083333" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="5" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32948717" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.38918918" weight="0.3576923" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.8513625" visible="true" weight="0.36666667" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Spring" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.15625" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25207403" />
+      <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.49891225" weight="0.32916668" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49963742" weight="0.33541667" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27663088" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.3297587" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" id="Properties" order="4" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info id="Nl-Palette" order="2" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="right" id="Properties" order="4" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.33182332" />
@@ -1356,155 +1127,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-server-admin/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/entity/User.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-admin/src/main/java/com/ofengx/cloud/demo/CloudServerAdminApplication.groovy">
+    <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/controller/HelloController.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="300">
+          <caret line="20" column="80" lean-forward="true" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
           <folding>
-            <element signature="e#32#89#0" expanded="true" />
+            <element signature="e#42#82#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-admin/src/test/java/com/ofengx/cloud/demo/CloudServerAdminApplicationTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-config/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-config/src/main/java/com/ofengx/cloud/demo/CloudServerConfigApplication.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="e#31#80#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-eureka/src/main/java/com/ofengx/cloud/demo/CloudServerEurekaApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" lean-forward="true" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-eureka/src/main/java/com/ofengx/cloud/demo/CloudServerEurekaApplication.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#32#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-eureka/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-eureka/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-hystrix-dashboard/src/main/java/com/ofengx/cloud/demo/CloudServerHystrixDashboardApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="14" lean-forward="true" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-admin/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="34" column="21" selection-start-line="29" selection-start-column="8" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-hystrix-dashboard/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-hystrix-dashboard/src/main/java/com/ofengx/cloud/demo/CloudServerHystrixDashboardApplication.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#32#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-hystrix-dashboard/src/test/java/com/ofengx/cloud/demo/CloudServerHystrixDashboardApplicationTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-turbine/src/main/java/com/ofengx/cloud/demo/CloudServerTurbineApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="16" lean-forward="true" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-turbine/src/test/java/com/ofengx/cloud/demo/CloudServerTurbineApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-hystrix-dashboard/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-turbine/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-turbine/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-turbine/src/test/java/com/ofengx/cloud/demo/CloudServerTurbineApplicationTest.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -1512,36 +1148,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#32#81#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-zuul/src/main/java/com/ofengx/cloud/demo/filter/AccessFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="26" column="17" lean-forward="true" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-server-zuul/src/main/java/com/ofengx/cloud/demo/filter/AccessFilter.java" />
     <entry file="file://$PROJECT_DIR$/cloud-server-zuul/src/main/java/com/ofengx/cloud/demo/filter/AccessFilter.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#40#84#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-server-zuul/src/main/java/com/ofengx/cloud/demo/CloudServerZuulApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" lean-forward="true" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-server-zuul/src/main/java/com/ofengx/cloud/demo/CloudServerZuulApplication.java" />
     <entry file="file://$PROJECT_DIR$/cloud-server-zuul/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1553,9 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-          <folding>
-            <element signature="e#31#79#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1573,20 +1188,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/CloudServiceCommomApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="12" lean-forward="true" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/AccessLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="4" selection-end-line="91" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/CloudServiceCommomApplication.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/AccessLog.java" />
     <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/AccessLog.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
@@ -1594,13 +1197,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/GlobalConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="33" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/GlobalConstant.java" />
     <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/GlobalConstant.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1608,30 +1205,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/GwsLogger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="7" lean-forward="true" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/GwsLogger.java" />
     <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/GwsLogger.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
           <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-          <folding>
-            <element signature="e#44#89#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/GwsLoggerTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="29" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/GwsLoggerTypeEnum.java" />
     <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/log/GwsLoggerTypeEnum.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1646,23 +1228,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/test/java/com/ofengx/cloud/demo/CloudServiceCommomApplicationTests.java">
+    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/test/java/com/ofengx/cloud/demo/CloudServiceCommomApplicationTests.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/CloudServiceFeignApplication.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/CloudServiceFeignconsumerApplication.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/CloudServiceCommomApplication.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#32#81#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1673,30 +1245,114 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="386">
+            <caret line="38" selection-start-line="38" selection-end-line="38" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/CloudServiceFeignApplication.java">
+    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="15" lean-forward="true" selection-end-line="15" />
+        <state relative-caret-position="192">
+          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/CloudServiceFeignApplication.groovy">
+    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/service/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="375">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-server-eureka/src/main/java/com/ofengx/cloud/demo/CloudServerEurekaApplication.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.0.0.M9/spring-cloud-commons-2.0.0.M9.jar!/org/springframework/cloud/client/discovery/DiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="13" column="28" lean-forward="true" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/repository/queryFilter/UserQueryFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/repository/master/UserRepositoryMaster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="60" selection-start-line="10" selection-start-column="60" selection-end-line="10" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/entity/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/controller/ConsumerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="36" column="29" lean-forward="true" selection-start-line="36" selection-start-column="29" selection-end-line="36" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/datasource/DataSourceInfoConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="32" column="19" lean-forward="true" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-repo/service-consumer-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="41" column="2" lean-forward="true" selection-start-line="41" selection-start-column="2" selection-end-line="41" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/CloudServiceFeignconsumerApplication.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-server-eureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/repository/slave/UserRepositorySlave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
           <folding>
-            <element signature="e#32#81#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/CloudServiceCommomApplication.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1707,34 +1363,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/CloudServiceFeignconsumerApplication.java">
+    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="18" lean-forward="true" selection-end-line="18" />
+        <state relative-caret-position="150">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/CloudServiceFeignconsumerApplication.groovy">
+    <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/common/quary/annotation/QBindAttrField.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="29" lean-forward="true" selection-start-column="29" selection-end-column="29" />
+        <state relative-caret-position="255">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
-            <element signature="e#32#81#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/controller/HelloController.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/entity/User.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/entity/User.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+        <state relative-caret-position="120">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-feignconsumer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/cloud-service-feign/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        <state relative-caret-position="1335">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="41" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/CloudServiceFeignApplication.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="e#31#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-server-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/controller/HelloController.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="26" column="59" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
+          <folding>
+            <element signature="e#42#82#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1771,7 +1463,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.57405615" />
               </list>
             </option>
           </splitter-proportions>
@@ -1791,12 +1483,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cloud-service-feignconsumer</last-edited>
+          <last-edited>Web|cloud-service-feign</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1816,11 +1507,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited>Maven: com.thoughtworks.xstream:xstream:1.4.10</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.57405615" />
               </list>
             </option>
           </splitter-proportions>

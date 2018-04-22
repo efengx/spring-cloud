@@ -19,7 +19,7 @@ spring:
       maxWait: 60000
       # How long does the configuration interval take to perform a test and detect idle connections that need to be closed in milliseconds?
       timeBetweenEvictionRunsMillis: 60000
-      # 配置一个连接在池中最小生存的时间，单位是毫秒Configure the minimum lifetime for a connection in the pool, in milliseconds
+      # Configure the minimum lifetime for a connection in the pool, in milliseconds
       minEvictableIdleTimeMillis: 300000
       validationQuery: SELECT 1 FROM DUAL
       testWhileIdle: true

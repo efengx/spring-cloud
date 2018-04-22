@@ -1,12 +1,11 @@
 package com.ofengx.cloud.demo.repository.queryFilter;
 
 
+import com.ofengx.cloud.demo.common.quary.Where;
+import com.ofengx.cloud.demo.common.quary.annotation.QBindAttrField;
+import com.ofengx.cloud.demo.common.quary.annotation.QBindEntity;
+import com.ofengx.cloud.demo.common.quary.core.BaseQuery;
 import com.ofengx.cloud.demo.entity.User;
-import com.yangst.cloud.demo.entity.User;
-import com.yangst.cloud.demo.common.quary.Where;
-import com.yangst.cloud.demo.common.quary.annotation.QBindAttrField;
-import com.yangst.cloud.demo.common.quary.annotation.QBindEntity;
-import com.yangst.cloud.demo.common.quary.core.BaseQuery;
 
 @QBindEntity(entityClass = User.class)
 public class UserQueryFilter extends BaseQuery {

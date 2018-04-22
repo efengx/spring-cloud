@@ -80,7 +80,7 @@
 			<version>1.9.3</version>
 		</dependency>
 
-		<!-- druid连接池 -->
+		<!-- druid -->
 		<dependency>
 			<groupId>com.alibaba</groupId>
 			<artifactId>druid</artifactId>
