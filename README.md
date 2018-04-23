@@ -84,3 +84,7 @@ Add Spring boot support
     </dependency>
 </dependencies>
 ```
+
+## Error handling
+
+### Packet conflict
