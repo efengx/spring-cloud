@@ -37,23 +37,19 @@
 ### quick start:
 Add Spring boot support
 ```xml
+<dependencies>
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-data-redis</artifactId>
     </dependency>
-```
-
-Add support for redis
-```xml
+    <!-- redis -->
     <dependency>
         <groupId>redis.clients</groupId>
         <artifactId>jedis</artifactId>
         <version>2.9.0</version>
     </dependency>
-```
-
-Add support for sharding-jdbc and JPA
-```xml
+    
+    <!-- jpa -->
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-data-jpa</artifactId>
@@ -62,18 +58,14 @@ Add support for sharding-jdbc and JPA
         <groupId>commons-beanutils</groupId>
         <artifactId>commons-beanutils</artifactId>
     </dependency>
-    <!-- druid connection pool -->
-    <dependency>
-        <groupId>com.alibaba</groupId>
-        <artifactId>druid</artifactId>
-        <version>1.0.12</version>
-    </dependency>
+    
     <!-- mysql -->
     <dependency>
         <groupId>mysql</groupId>
         <artifactId>mysql-connector-java</artifactId>
         <version>5.1.41</version>
     </dependency>
+    
     <!-- sharding-jdbc -->
     <dependency>
         <groupId>com.dangdang</groupId>
@@ -90,4 +82,5 @@ Add support for sharding-jdbc and JPA
         <artifactId>sharding-jdbc-transaction-storage</artifactId>
         <version>1.5.4</version>
     </dependency>
+</dependencies>
 ```
