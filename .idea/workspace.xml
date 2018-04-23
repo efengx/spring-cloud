@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05620f64-2612-4949-8207-e3c3c2a5ff55" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -102,8 +101,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="264">
-                <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -791,7 +790,7 @@
       <workItem from="1524387243386" duration="15061000" />
       <workItem from="1524405947340" duration="3555000" />
       <workItem from="1524412162399" duration="1528000" />
-      <workItem from="1524458838895" duration="610000" />
+      <workItem from="1524458838895" duration="938000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1522390325734</created>
@@ -923,7 +922,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69629000" />
+    <option name="totallyTimeSpent" value="69957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="1426" height="1057" extended-state="0" />
@@ -948,8 +947,8 @@
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.8513625" weight="0.36666667" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.49891225" weight="0.32916668" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49783236" visible="true" weight="0.153125" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20881502" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49783236" visible="true" weight="0.153125" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20881502" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.3297587" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -1319,8 +1318,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="264">
-            <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>

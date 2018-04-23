@@ -1,19 +1,38 @@
 # spring-cloud-demo
-- springboot 2.0.0.release
-- springcloud Finchley.M9
-- Groovy
++ springboot 2.0.0.release
++ springcloud Finchley.M9
++ Groovy
 
 # start sequence:   
-- 1.cloud-server-eureka               registration center(cluster)   
-- 2.cloud-server-config               configuration center  
-- 3.cloud-service-feign               service provider     
-- 4.cloud-service-api service         interface        
-- 5.cloud-service-feignconsumer       service consumers, contain: feign（ribbon,hystrix）        
-- 6.cloud-server-hystrix-dashboard    fuse monitoring application   
-- 7.cloud-server-zuul                 Gateway Routing/Verification    
-- 8.cloud-server-turbine              Fuse monitoring cluster application   
-- 9.cloud-service-common              public class
-- 10.cloud-server-admin               service monitoring
+1.  cloud-server-eureka               
+    registration center (cluster)
+    
+2.  cloud-server-config               
+    configuration center  
+    
+3.  cloud-service-feign               
+    service provider     
+    
+4.  cloud-service-api service         
+    interface        
+    
+5.  cloud-service-feignconsumer       
+    service consumers, contain: feign（ribbon,hystrix）
+            
+6.  cloud-server-hystrix-dashboard    
+    fuse monitoring application
+       
+7.  cloud-server-zuul                 
+    Gateway Routing/Verification
+        
+8.  cloud-server-turbine              
+    Fuse monitoring cluster application
+       
+9.  cloud-service-common              
+    public class
+    
+10. cloud-server-admin                
+    service monitoring
 
 ### quick start:
 Add Spring boot support
