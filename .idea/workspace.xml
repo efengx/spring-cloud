@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05620f64-2612-4949-8207-e3c3c2a5ff55" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-cloud-demo.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cloud-service-api/target/" />
@@ -76,15 +77,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CloudServiceCommomApplication.groovy" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-service-commom/src/main/java/com/ofengx/cloud/demo/CloudServiceCommomApplication.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HelloController.groovy" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/controller/HelloController.groovy">
           <provider selected="true" editor-type-id="text-editor">
@@ -97,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -105,6 +97,15 @@
                 <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -159,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-server-eureka/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/cloud-service-feignconsumer/src/main/java/com/ofengx/cloud/demo/config/datasource/DataSourceInfoConfig.java" />
         <option value="$PROJECT_DIR$/cloud-server-eureka/pom.xml" />
@@ -210,6 +210,7 @@
         <option value="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/entity/User.groovy" />
         <option value="$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/controller/HelloController.groovy" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -271,7 +272,7 @@
             <path>
               <item name="spring-cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-service-feign" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-service-feignconsumer" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -790,7 +791,7 @@
       <workItem from="1524387243386" duration="15061000" />
       <workItem from="1524405947340" duration="3555000" />
       <workItem from="1524412162399" duration="1528000" />
-      <workItem from="1524458838895" duration="1187000" />
+      <workItem from="1524458838895" duration="1531000" />
     </task>
     <task id="LOCAL-00001" summary="优化">
       <created>1522390325734</created>
@@ -922,14 +923,14 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70206000" />
+    <option name="totallyTimeSpent" value="70550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="46" y="23" width="1426" height="1057" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50216764" side_tool="true" visible="true" weight="0.153125" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50216764" side_tool="true" visible="true" weight="0.28333333" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.3404437" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info id="Capture Tool" order="7" />
@@ -947,8 +948,8 @@
       <window_info anchor="bottom" id="Run" order="3" sideWeight="0.8513625" weight="0.36666667" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" sideWeight="0.49891225" weight="0.32916668" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49783236" visible="true" weight="0.153125" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20881502" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49783236" visible="true" weight="0.28333333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21242775" />
       <window_info anchor="right" id="Bean Validation" order="8" weight="0.3297587" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="9" />
@@ -1022,23 +1023,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/entity/User.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-service-feign/src/main/java/com/ofengx/cloud/demo/controller/HelloController.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="80" lean-forward="true" selection-start-line="20" selection-start-column="80" selection-end-line="20" selection-end-column="80" />
-          <folding>
-            <element signature="e#42#82#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-server-turbine/src/main/java/com/ofengx/cloud/demo/CloudServerTurbineApplication.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1315,6 +1299,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-demo.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1322,6 +1309,13 @@
             <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
