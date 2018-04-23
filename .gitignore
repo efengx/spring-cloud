@@ -1,3 +1,14 @@
-### project file ###
+# project file #
 spring-cloud-demo.iml
-.idea
+.idea/
+.gradle/
+
+*.iml
+
+build/
+target/
+
+# Package Files #
+*.jar
+*.war
+*.ear

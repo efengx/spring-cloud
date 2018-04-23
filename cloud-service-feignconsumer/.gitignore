@@ -23,6 +23,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+target/
 
-### project file ###
-spring-cloud-demo.iml
+cloud-service-feignconsumer.iml
