@@ -18,8 +18,8 @@ import javax.persistence.criteria.Path;
 import javax.persistence.criteria.Predicate;
 import javax.persistence.criteria.Root;
 
-import com.yangst.cloud.demo.common.quary.annotation.QBindAttrField;
-import com.yangst.cloud.demo.common.quary.annotation.QBindEntity;
+import com.ofengx.cloud.demo.common.quary.annotation.QBindAttrField;
+import com.ofengx.cloud.demo.common.quary.annotation.QBindEntity;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
