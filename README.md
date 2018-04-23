@@ -1,6 +1,6 @@
 # spring-cloud-demo
-+ springboot 2.0.0.release
-+ springcloud Finchley.M9
++ spring boot 2.0.0.release
++ spring cloud (Finchley.M9)
 + Groovy
 
 # start sequence:   
