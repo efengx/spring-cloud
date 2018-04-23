@@ -23,7 +23,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @EnableJpaRepositories(entityManagerFactoryRef = "slaveEntityManagerFactory",
                        /*transactionManagerRef = "slaveTransactionManager",*/
-                       basePackages = {"cloud.yangst.cloud.demo.repository.slave"},//设置dao（repo）所在位置
+                       basePackages = {"cloud.ofengx.cloud.demo.repository.slave"},//设置dao（repo）所在位置
                        repositoryBaseClass = BaseSimpleJpaRepositoryEx.class)//jpa增強配置
 
 public class SlaveRepositoryConfig {

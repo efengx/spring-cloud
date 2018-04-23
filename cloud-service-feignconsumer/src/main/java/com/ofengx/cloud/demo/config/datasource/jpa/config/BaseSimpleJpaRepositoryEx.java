@@ -4,6 +4,7 @@ import java.io.Serializable;
 import java.util.List;
 import java.util.Optional;
 
+import com.ofengx.cloud.demo.common.log.GwsLogger;
 import com.ofengx.cloud.demo.common.quary.core.BaseQuery;
 import com.ofengx.cloud.demo.common.quary.core.BaseQueryPredicateBuilder;
 import com.ofengx.cloud.demo.common.quary.core.BaseRepository;
@@ -15,11 +16,6 @@ import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaUpdate;
 import javax.persistence.criteria.Root;
 
-import com.yangst.cloud.demo.common.log.GwsLogger;
-import com.yangst.cloud.demo.common.quary.core.BaseQuery;
-import com.yangst.cloud.demo.common.quary.core.BaseQueryPredicateBuilder;
-import com.yangst.cloud.demo.common.quary.core.BaseRepository;
-import com.yangst.cloud.demo.common.quary.core.QueryToSpecification;
 import org.springframework.data.domain.Example;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

@@ -21,7 +21,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableTransactionManagement
 @EnableJpaRepositories(entityManagerFactoryRef = "masterEntityManagerFactory",
                        /*transactionManagerRef = "masterTransactionManager",*/
-                       basePackages = {"cloud.yangst.cloud.demo.repository.master"},//设置dao（repo）所在位置
+                       basePackages = {"cloud.ofengx.cloud.demo.repository.master"},//设置dao（repo）所在位置
                        repositoryBaseClass = BaseSimpleJpaRepositoryEx.class)//jpa增強配置
 
 public class MasterRepositoryConfig {

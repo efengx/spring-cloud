@@ -1,7 +1,6 @@
 package com.ofengx.cloud.demo.config.cache;
 
 import com.ofengx.cloud.demo.config.properties.RedisConfig;
-import com.yangst.cloud.demo.config.properties.RedisConfig;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

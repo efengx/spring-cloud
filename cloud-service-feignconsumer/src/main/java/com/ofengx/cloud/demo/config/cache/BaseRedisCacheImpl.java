@@ -135,7 +135,7 @@ public class BaseRedisCacheImpl extends AbstractBaseRedis implements CacheClient
 	 * @param hashKey
 	 * @return    设定文件 
 	 * boolean    返回类型 
-	 * @author Yangst
+	 * @author Xiang Feng
 	 * @throws
 	 */
 	 public <T> boolean hashDelete(String realKey,String hashKey){

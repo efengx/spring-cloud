@@ -1,0 +1,16 @@
+server:
+  port: 9003
+eureka:
+  client:
+    serviceUrl:
+       defaultZone: http://localhost:8080/eureka/
+spring:
+  application:
+    name: service-upload
+  resources:
+    static-locations: classpath:/META-INF/resources/, classpath:/resources/, classpath:/static/, classpath:/public/
+  servlet:
+    multipart:
+      max-file-size: 1MB
+      max-request-size: 6MB
+      enabled: true
