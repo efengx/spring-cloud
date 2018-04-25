@@ -7,8 +7,6 @@ eureka:
 spring:
   application:
     name: service-upload
-  resources:
-    static-locations: classpath:/META-INF/resources/, classpath:/resources/, classpath:/static/, classpath:/public/
   servlet:
     multipart:
       max-file-size: 1MB
