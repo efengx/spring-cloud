@@ -2,11 +2,11 @@ spring:
   application:
     name: cloud-server-zuul
 server:
-  port: 8181
+  port: 8763
 eureka:
   client:
     serviceUrl:
-       defaultZone: http://localhost:8080/eureka/
+       defaultZone: http://localhost:8761/eureka/
 
 #zuul.ignored-patterns=/**/hello/**
 #zuul.routes.hello-service.url=forward:/local
@@ -27,3 +27,4 @@ zuul:
     service-consumer:
       path: /service-consumer/**
       url: http://localhost:9002/
+

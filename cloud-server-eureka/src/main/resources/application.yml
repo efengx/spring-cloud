@@ -2,7 +2,7 @@ spring:
   application:
     name: cloud-server-eureka
 server:
-  port: 8080
+  port: 8761
 eureka:
 #  server:
 #  Close the protection mechanism
@@ -16,4 +16,4 @@ eureka:
   #    Close search service
       fetch-registry: false
       serviceUrl:
-          defaultZone: http://${eureka.instance.hostname}:8080/eureka/
+          defaultZone: http://${eureka.instance.hostname}:8761/eureka/

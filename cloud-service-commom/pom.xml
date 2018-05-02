@@ -3,7 +3,7 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.ofengx.cloud.demo</groupId>
+	<groupId>com.ofengx</groupId>
 	<artifactId>cloud-service-commom</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
@@ -22,6 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
+		<spring-cloud.version>Finchley.RC1</spring-cloud.version>
 		<skipTests>true</skipTests>
 	</properties>
 
@@ -52,12 +53,13 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.0</version>
 		</dependency>
-		<!--添加log4j2的支持-->
+
+		<!--add log4j2 support -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-log4j2</artifactId>
 		</dependency>
-		<!--添加sharding-jdbc和JPA支持-->
+		<!--add sharding-jdbc and JPA support -->
 		<dependency>
 			<groupId>com.dangdang</groupId>
 			<artifactId>sharding-jdbc-core</artifactId>

@@ -2,7 +2,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.ofengx.cloud.demo</groupId>
+  <groupId>com.ofengx</groupId>
   <artifactId>spring-cloud-demo</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
@@ -17,17 +17,14 @@
     <module>cloud-server-hystrix-dashboard</module>
     <module>cloud-server-turbine</module>
     <module>cloud-server-zuul</module>
+    <module>cloud-server-oauth2</module>
+
     <module>cloud-service-commom</module>
     <module>cloud-service-feign</module>
     <module>cloud-service-feignconsumer</module>
     <module>cloud-service-upload</module>
+    <module>cloud-service-security</module>
   </modules>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    <java.version>1.8</java.version>
-  </properties>
 
   <dependencies>
     <dependency>
