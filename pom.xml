@@ -18,6 +18,7 @@
     <module>cloud-server-turbine</module>
     <module>cloud-server-zuul</module>
     <module>cloud-server-oauth2</module>
+    <module>cloud-server-sso</module>
 
     <module>cloud-service-commom</module>
     <module>cloud-service-feign</module>
