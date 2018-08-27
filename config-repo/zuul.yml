@@ -1,8 +1,0 @@
-info:
-  component: spring cloud zuul config server
-zuul:
-  routes:
-    demo:
-      path: /demo/**
-      serviceId: CLOUD-CLIENT-DEMO
-  ignored-services: '*'
