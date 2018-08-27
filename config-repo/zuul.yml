@@ -3,6 +3,6 @@ info:
 zuul:
   routes:
     users:
-      path: /user/**
-      serviceId: users_service
+      path: /demo/**
+      serviceId: cloud-client-demo
   ignored-services: '*'
