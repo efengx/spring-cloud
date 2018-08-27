@@ -4,5 +4,5 @@ zuul:
   routes:
     demo:
       path: /demo/**
-      serviceId: cloud-client-demo
+      serviceId: CLOUD-CLIENT-DEMO
   ignored-services: '*'
