@@ -1,2 +1,8 @@
 info:
   component: spring cloud zuul config server
+zuul:
+  routes:
+    users:
+      path: /user/**
+      serviceId: users_service
+  ignored-services: '*'
