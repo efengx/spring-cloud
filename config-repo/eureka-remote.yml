@@ -2,7 +2,7 @@ info:
   component: spring cloud eureka config server
 eureka:
   instance:
-    hostname: 192.168.99.100
+    hostname: 172.24.249.160
     prefer-ip-address: true
   client:
     serviceUrl:
