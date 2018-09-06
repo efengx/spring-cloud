@@ -1,5 +1,3 @@
-info:
-  component: spring cloud eureka config server
 eureka:
   instance:
     hostname: 39.104.165.143
