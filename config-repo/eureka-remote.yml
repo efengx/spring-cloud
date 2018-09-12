@@ -1,6 +1,7 @@
 eureka:
   instance:
     hostname: 39.104.165.143
+    instance-id: 39.104.165.143
     prefer-ip-address: true
   client:
     serviceUrl:
