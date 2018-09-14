@@ -1,7 +1,6 @@
 eureka:
   instance:
     hostname: 127.0.0.1
-    instance-id: 127.0.0.2
     prefer-ip-address: true
   client:
     serviceUrl:
