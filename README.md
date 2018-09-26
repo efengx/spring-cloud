@@ -1,7 +1,7 @@
 # spring-cloud
 + spring boot 2.0.0.release
 + spring cloud (Finchley.M9)
-+ ～Groovy～
++ ~~Groovy~~ Deprecated, bad maven integration
 
 # start sequence:   
 1.  cloud-server-eureka               
